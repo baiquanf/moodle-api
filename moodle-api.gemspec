@@ -27,14 +27,14 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.9'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'guard-rspec'
-  spec.add_development_dependency 'rubocop'
-  spec.add_development_dependency 'rubocop-rspec'
-  spec.add_development_dependency 'simplecov'
-  spec.add_development_dependency 'vcr'
+  spec.add_development_dependency 'bundler', '~> 2.1'
+  spec.add_development_dependency 'rake', '~> 13.0'
+  spec.add_development_dependency 'rspec', '~> 3.9'
+  spec.add_development_dependency 'guard-rspec', '~> 4.7'
+  spec.add_development_dependency 'rubocop', '~> 0.81'
+  spec.add_development_dependency 'rubocop-rspec', '~> 1.38'
+  spec.add_development_dependency 'simplecov', '~> 0.18'
+  spec.add_development_dependency 'vcr', '~> 5.1'
 
-  spec.add_dependency 'typhoeus'
+  spec.add_dependency 'typhoeus', '~> 1.3'
 end
